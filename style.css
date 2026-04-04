@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     font-family: "Poppins", sans-serif;
+     background-color: rgb(225, 223, 223);
+     line-height: 1.6;
+     color: #333;
+
+}
+h1{
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #B11C12;
+    color: rgb(238, 219, 219);
+    font-weight: 500;
+    border-radius: 5px;
+}
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+section h2 {
+    margin-bottom: 15px;
+    color: #B11C12;
+}
+.description {
+text-align: center;
+}
+.description p {
+font-size: 18px;
+margin-bottom: 10px;
+/* border: 1px solid black; */
+padding: 10px 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.ingredients {
+    margin-top: 10px;
+
+}
+.ingredients ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.instruction {
+    margin-top: 10px;
+}
+.instruction ol {
+    padding-left: 20px;
+}
+.nutrition {
+    margin-top: 20px;
+}
+.nutrition caption {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.nutrition th, .nutrition td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.nutrition thead th {
+    background-color: #893b35;
+    color: rgb(212, 203, 203);
+}
